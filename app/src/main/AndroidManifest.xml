@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+    <uses-permission android:name="com.xtc.im.permission.SHARE_API" />
+    <uses-permission android:name="com.xtc.im.permission.RECEIVE_SHARE" />
+    <uses-permission android:name="com.xtc.permission.ACCESS_PROVIDER" />
+    <uses-permission android:name="com.xtc.motion.permission.READ_MOTION_STATE" />
+    <uses-permission android:name="com.xtc.provider.permission.READ_DATA" />
+    <uses-permission android:name="com.xtc.permission.WALK_STEPS" />
+    <uses-permission android:name="com.xtc.location.permission.LOCATION" />
+    <uses-permission android:name="xtc.android.permission.ACCESS_RESOURCE" />
+    <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE" />
+    <uses-permission android:name="com.xtc.http.bigdata.provider.permission.READ_CONTENT" />
+    <uses-permission android:name="com.xtc.http.bigdata.provider.permission.WRITE_CONTENT" />
+    <uses-permission android:name="com.xtc.i3launcher.permission.READ_DNS" />
+    <uses-permission android:name="com.xtc.appupdate.permission.READ_DNS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.MAIN" />
+        </intent>
+        <package android:name="com.xtc.im" />
+        <package android:name="com.xtc.im.mainservice" />
+        <package android:name="com.xtc.weichat" />
+        <package android:name="com.xtc.moment" />
+        <intent>
+            <action android:name="com.xtc.shareapi.intent.action.SEND" />
+        </intent>
+        <intent>
+            <action android:name="tencent.translation.corecloud.cc.intent.action.RESPONSE" />
+        </intent>
+        <provider android:authorities="com.xtc.motion.provider" />
+        <provider android:authorities="com.xtc.provider" />
+    </queries>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/index"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/index"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CorecloudXtcShare">
+        <activity
+            android:name="corecloud.xtc.share.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="corecloud.xtc.share.Home" />
+    </application>
+</manifest>

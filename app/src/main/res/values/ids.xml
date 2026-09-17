@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="rl_scene" type="id" />
+    
+    <item name="ll_chat_scene" type="id" />
+    <item name="ll_moment_scene" type="id" />
+    
+    <item name="iv_chat_scene" type="id" />
+    <item name="iv_moment_scene" type="id" />
+    
+    <item name="bt_cancel_share" type="id" />
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public type="anim" name="abc_fade_in" id="0x7f010001" />
+    <public type="anim" name="abc_fade_out" id="0x7f010002" />
+    <public type="anim" name="abc_grow_fade_in_from_bottom" id="0x7f010003" />
+    <public type="anim" name="abc_popup_enter" id="0x7f010004" />
+    <public type="anim" name="abc_popup_exit" id="0x7f010005" />
+    <public type="anim" name="abc_shrink_fade_out_from_bottom" id="0x7f010006" />
+    <public type="anim" name="abc_slide_in_bottom" id="0x7f010007" />
+    <public type="anim" name="abc_slide_in_top" id="0x7f010008" />
+    <public type="anim" name="abc_slide_out_bottom" id="0x7f010009" />
+    <public type="anim" name="abc_slide_out_top" id="0x7f01000a" />
+    <public type="anim" name="tooltip_enter" id="0x7f01000b" />
+    <public type="anim" name="tooltip_exit" id="0x7f01000c" />
+    <public type="drawable" name="ic_portrait_default" id="0x7f020015" />
+    <public type="drawable" name="toggle_on" id="0x7f020016" />
+    <public type="drawable" name="toggle_off" id="0x7f020017" />
+    <public type="drawable" name="bg_common_blur" id="0x7f060067" />
+    <public type="mipmap" name="ic_app_1" id="0x7f0a0000" />
+    <public type="mipmap" name="ic_app_2" id="0x7f0a0001" />
+    <public type="mipmap" name="ic_app_3" id="0x7f0a0002" />
+    <public type="mipmap" name="ic_app_4" id="0x7f0a0003" />
+    <public type="mipmap" name="ic_app_5" id="0x7f0a0004" />
+    <public type="mipmap" name="img_show" id="0x7f0a0005" />
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/rl_scene"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="40dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@id/ll_chat_scene"
+        android:layout_marginStart="4dp"
+        style="@style/CenteredVerticalLayout">
+        <com.xtc.shareapi.share.view.AppLinearLayout
+            android:id="@id/iv_chat_scene"
+            android:background="@drawable/ic_share_chat"
+            style="@style/CustomShareImageViewStyle" />
+        <TextView
+            android:text="@string/chat_scene"
+            style="@style/CenteredTextViewStyle" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@id/ll_moment_scene"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@id/ll_chat_scene"
+        style="@style/CenteredVerticalLayout">
+        <com.xtc.shareapi.share.view.AppLinearLayout
+            android:id="@id/iv_moment_scene"
+            android:background="@drawable/ic_share_moment"
+            style="@style/CustomShareImageViewStyle" />
+        <TextView
+            android:text="@string/moment_scene"
+            style="@style/CenteredTextViewStyle" />
+    </LinearLayout>
+    <Button
+        android:textSize="15sp"
+        android:textColor="#99FFFFFF"
+        android:id="@id/bt_cancel_share"
+        android:background="@drawable/cancel_btn_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:maxWidth="150dp"
+        android:minWidth="80dp"
+        android:text="@string/cancel_share"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
